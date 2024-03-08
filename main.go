@@ -43,7 +43,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	
 	Name : Abhinav Mahajan
 	StudentID : 500230044
-	GithubRepo :
+	GithubRepo : https://github.com/AbhinavTIS/Crud_Docker_assignment
 	`
 
 	w.Header().Set("Content-Type", "text/plain")

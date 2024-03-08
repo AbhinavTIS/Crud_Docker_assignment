@@ -16,7 +16,7 @@ RUN go mod download
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o taskmanager .
 
 # Expose port 8012 to the outside world
-EXPOSE 8012
+EXPOSE 8013
 
 # Command to run the executable
 CMD ["./taskmanager"]
